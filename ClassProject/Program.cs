@@ -7,16 +7,9 @@ namespace ClassProject
     {
         static void Main(string[] args)
         {
-            var cat = new Cat();
-            Console.WriteLine(cat.LegCount);
+            var w = new While();
 
-            Animal sg = cat;
-            Console.WriteLine(sg.LegCount);
-
-            sg = new Seagull();
-            Console.WriteLine(sg.LegCount);
-
-            var cat2 = new Cat(3);
+            w.OutputToConsole(3);
 
             Console.ReadLine();
         }
